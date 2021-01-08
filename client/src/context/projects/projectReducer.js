@@ -47,6 +47,6 @@ export default (state, action) => {
         project: null
       };
     default:
-      break;
+      return state;
   }
 };
